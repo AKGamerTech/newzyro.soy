@@ -1,0 +1,186 @@
+html{
+    background-image: url('./img/star_gif-resized.gif');
+    
+    background-repeat: repeat;
+    
+}
+
+body{
+    min-height: 110vh;
+    margin: 0;
+}
+
+.logo{
+    background-color: rgba(0, 0, 0,0.2);
+    border-radius: 10px;
+    height: 15vw;
+    display: flex;
+    margin: 10px auto;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.navbar {
+    padding: 1rem;
+    margin: auto 10vw;
+    z-index: 1000;
+    
+
+}
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    
+    gap: 5rem;
+}
+
+.navbar img {
+    height: 5vw;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    margin: 5px auto;
+    width: 65vw;
+    background-color:rgb(240, 248, 255);
+    border: 5px solid rgb(0, 0, 255);
+    border-top: 0;
+    border-radius: 10px;
+
+}
+.section-header {
+    display: flex;
+    background-color: rgb(0, 0, 255);
+    color: white;
+    margin: 0;
+    border-radius: 6px 6px 0 0;
+}
+.section-header h1{
+    margin: 0;
+    padding: 5px;
+}
+.section-header-buttons {
+    margin: auto;
+    margin-right: 5px;
+    gap: 1rem;
+}
+
+.section-middle{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    
+}
+.section-middle img{
+    height: 5vh;
+    margin: 0 10px;
+}
+
+
+
+.image-gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+:hover.links_button{
+    scale: 1.1;
+    transition: 0.3s ease all;
+}
+
+
+
+.floating-image {
+    width: 5vw;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+
+}
+
+.floating-image.left {
+    left: 5vw; /* Adjust distance from the left edge */
+}
+
+.floating-image.right {
+    right: 5vw; /* Adjust distance from the right edge */
+}
+
+.floating-image.top {
+    width: 10vw;
+    position:absolute;
+    top: 10vw; /* Adjust distance from the right edge */
+}
+
+@media (max-width: 480px) {
+    .navbar ul {
+        flex-direction: column; 
+        gap: 1rem;
+    }
+    .navbar img {
+        height: 10vw;
+    }
+
+    .logo {
+        height: 25vw;
+    }
+
+    .info-section {
+        width: 90vw;
+    }
+    .about-me{
+        margin: 5px;
+        flex-direction: column;
+    }
+    .about-me img{
+        height: 100%;
+    }
+    
+}
+
+
+@media (max-width: 768px) {
+    .navbar ul {
+        gap: 2rem;
+    }
+
+    .logo {
+        height: 20vw;
+    }
+
+    .info-section {
+        width: 80vw;
+    }
+    .section-middle{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1024px) {
+    .navbar ul {
+        gap: 3rem;
+    }
+
+    .info-section {
+        width: 70vw;
+    }
+}
+
+/* For large devices (desktops) */
+@media (min-width: 1025px) {
+    .info-section {
+        width: 65vw;
+    }
+}

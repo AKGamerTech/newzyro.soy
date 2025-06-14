@@ -1,0 +1,134 @@
+html{
+    background: rgb(114,77,173);
+    background: radial-gradient(circle, rgba(114,77,173,1) 0%, rgba(57,21,95,1) 100%);
+    background-image: url('../img/migrod.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 110vh;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    backdrop-filter: blur(10px);
+    margin: 0;
+}
+
+.about-me{
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    margin: 0;
+    padding: 1rem;
+    gap: 2rem;
+}
+.about-me-right{
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    margin: 0;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.window .special{
+    display: inline-flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 5px;
+}
+
+.body-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 1rem;
+    margin: 0;
+    padding: 10px;}
+
+.body-right{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;    
+    ;}
+.body-right-content{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;    
+    ;}
+
+.body-right input{
+    justify-content: center;
+    align-items: center;
+    font-size: 12pt;
+    overflow: hidden;
+    margin: 0;
+    cursor: default;
+    width: 6rem;
+    color: black;
+}
+
+.special img{
+    border-radius: 5px;
+}
+
+.user-image{
+    display: flex;
+    height: 10vh;
+}
+
+.about-me-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    align-items: top;
+    gap: 1rem;
+    margin: 0;
+}
+
+.about-me-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: top;
+    gap: 1rem;
+    height: 16pt;
+}
+
+textarea{
+    text-align: center;
+    justify-content: center;
+    width: 6rem;
+    height: 18pt;
+    border: 0;
+    background-color: purple;
+    resize: none;
+    font-size: 16pt;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    overflow: hidden;
+    margin: 0;
+    outline-style: ridge;
+    cursor: default;
+}
+
+.about-me-text p{
+    align-content: center;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .body-content{
+        flex-direction: column;
+    }
+}

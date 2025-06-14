@@ -2,6 +2,7 @@ html {
     height: 100%;
     background:  repeat url('./img/newzyro.gif') center center fixed;
     color: white;
+    margin-top: 100px;
 }
 
 html::before {
@@ -22,29 +23,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    font-family: Arial, sans-serif;
-    width: 75%;
     justify-self: center;
 }
 .container {
+    justify-content: center;
+    align-items: center;
     text-align: center;
     color: white;
+    border: 30px;
 }
 
 .top-container {
     display: flex;
-    top: 20px;
     align-items: center;
     justify-content: center;
     border: 1px solid white;
     gap: 20px;
-}
-
-.top-container div {
-    border: 1px solid red;
-    width: 50%;
-
 }
 
 .top-container .welcome-container {
@@ -129,3 +123,18 @@ body {
     justify-content: center;
     width: 100%;
 }
+
+
+
+
+@media (max-width: 768px) {
+    .container{
+        width: 75%;
+    }
+    .top-container{
+        display: block;
+    }
+    .links-list{
+        flex-direction: column;
+    }
+}   

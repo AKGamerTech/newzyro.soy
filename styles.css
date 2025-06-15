@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+
 html {
     height: 100%;
     background:  repeat url('./img/newzyro.gif') center center fixed;
     color: white;
     margin-top: 100px;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 html::before {
@@ -24,6 +30,7 @@ body {
     justify-content: center;
     align-items: center;
     justify-self: center;
+    width: 75%;
 }
 .container {
     justify-content: center;
@@ -128,13 +135,27 @@ body {
 
 
 @media (max-width: 768px) {
-    .container{
-        width: 75%;
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        min-height: 100vh;
+        margin: 0;
     }
-    .top-container{
+
+    .container {
+        width: 90%;
+        text-align: center;
+    }
+
+    .top-container {
         display: block;
+        width: 100%;
+        margin: 0 auto;
     }
-    .links-list{
+
+    .links-list {
         flex-direction: column;
     }
-}   
+}

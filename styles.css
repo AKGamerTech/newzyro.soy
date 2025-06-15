@@ -66,6 +66,12 @@ body {
     
 }
 
+.welcome-container img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+}
+
 .welcome-text {
     display: flex;
     flex-direction: column;
@@ -135,13 +141,13 @@ body {
 
 
 @media (max-width: 768px) {
-    body {
+        body {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100vw;
         min-height: 100vh;
-        margin: 0;
+        margin: 0 auto;
     }
 
     .container {
@@ -155,7 +161,41 @@ body {
         margin: 0 auto;
     }
 
-    .links-list {
+    .top-container .welcome-container div {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* Fix for links-container in mobile */
+    .links-container .links-list {
+        display: flex;
+        flex-direction: column; /* Stack columns vertically */
+        align-items: center; /* Center columns horizontally */
+        gap: 20px; /* Space between columns */
+    }
+
+    .links-container .links-list div {
+        display: flex;
         flex-direction: column;
+        align-items: center; /* Center content horizontally */
+        width: 100%; /* Full width */
+    }
+
+    .links-container .links-list ul {
+        display: flex;
+        flex-direction: column; /* Stack list items vertically */
+        align-items: center; /* Center list items */
+        gap: 10px; /* Space between links */
+        padding: 0; /* Remove default padding */
+        margin: 0; /* Remove default margin */
+    }
+
+    .links-container .links-list ul li {
+        width: auto; /* Let width adjust to content */
+    }
+
+    .links-container .links-list ul li a {
+        display: inline-block; /* Ensure padding works */
     }
 }

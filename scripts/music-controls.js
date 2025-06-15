@@ -25,6 +25,4 @@ document.addEventListener("DOMContentLoaded", () => {
         audio.muted = !audio.muted; // Toggle mute
         muteButton.textContent = audio.muted ? "Unmute" : "Mute";
     });
-
-    audio.play();
 });

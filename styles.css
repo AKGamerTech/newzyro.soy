@@ -67,9 +67,10 @@ body {
 }
 
 .welcome-container img {
-    width: 100px;
-    height: 100px;
-    border: 2px solid white;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border: 2px solid gray;
 }
 
 .welcome-text {

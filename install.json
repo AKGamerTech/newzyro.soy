@@ -1,0 +1,385 @@
+{
+    "WPFTweaks":  [
+                      "WPFTweaksWifi",
+                      "WPFTweaksRightClickMenu",
+                      "WPFTweaksDisableWpbtExecution",
+                      "WPFTweaksDisableLMS1",
+                      "WPFTweaksAH",
+                      "WPFTweaksEndTaskOnTaskbar",
+                      "WPFTweaksRemoveCopilot",
+                      "WPFTweaksRemoveOnedrive",
+                      "WPFTweaksHome",
+                      "WPFTweaksDisableExplorerAutoDiscovery",
+                      "WPFTweaksPowershell7Tele",
+                      "WPFTweaksUTC",
+                      "WPFTweaksRecallOff",
+                      "WPFTweaksPowershell7"
+                  ],
+    "Install":  [
+                    {
+                        "winget":  "Microsoft.WindowsTerminal",
+                        "choco":  "microsoft-windows-terminal"
+                    },
+                    {
+                        "winget":  "OBSProject.OBSStudio",
+                        "choco":  "obs-studio"
+                    },
+                    {
+                        "winget":  "StefanSundin.Superf4",
+                        "choco":  "superf4"
+                    },
+                    {
+                        "winget":  "Ventoy.Ventoy",
+                        "choco":  "ventoy"
+                    },
+                    {
+                        "winget":  "ONLYOFFICE.DesktopEditors",
+                        "choco":  "onlyoffice"
+                    },
+                    {
+                        "winget":  "Microsoft.DotNet.DesktopRuntime.6",
+                        "choco":  "dotnet-6.0-runtime"
+                    },
+                    {
+                        "winget":  "Gyan.FFmpeg",
+                        "choco":  "ffmpeg-full"
+                    },
+                    {
+                        "winget":  "Parsec.Parsec",
+                        "choco":  "parsec"
+                    },
+                    {
+                        "winget":  "EFIBootEditor.EFIBootEditor",
+                        "choco":  "na"
+                    },
+                    {
+                        "winget":  "Amazon.Corretto.21.JDK",
+                        "choco":  "corretto21jdk"
+                    },
+                    {
+                        "winget":  "dotPDN.PaintDotNet",
+                        "choco":  "paint.net"
+                    },
+                    {
+                        "winget":  "MoonlightGameStreamingProject.Moonlight",
+                        "choco":  "moonlight-qt"
+                    },
+                    {
+                        "winget":  "BlenderFoundation.Blender",
+                        "choco":  "blender"
+                    },
+                    {
+                        "winget":  "CPUID.HWMonitor",
+                        "choco":  "hwmonitor"
+                    },
+                    {
+                        "winget":  "Microsoft.VCRedist.2015+.x86",
+                        "choco":  "na"
+                    },
+                    {
+                        "winget":  "SumatraPDF.SumatraPDF",
+                        "choco":  "sumatrapdf"
+                    },
+                    {
+                        "winget":  "CrystalRich.LockHunter",
+                        "choco":  "lockhunter"
+                    },
+                    {
+                        "winget":  "na",
+                        "choco":  "equalizerapo"
+                    },
+                    {
+                        "winget":  "Python.Python.3.13",
+                        "choco":  "python"
+                    },
+                    {
+                        "winget":  "TeamViewer.TeamViewer",
+                        "choco":  "teamviewer9"
+                    },
+                    {
+                        "winget":  "Amazon.Corretto.17.JDK",
+                        "choco":  "corretto17jdk"
+                    },
+                    {
+                        "winget":  "LizardByte.Sunshine",
+                        "choco":  "sunshine"
+                    },
+                    {
+                        "winget":  "TechPowerUp.GPU-Z",
+                        "choco":  "gpu-z"
+                    },
+                    {
+                        "winget":  "yt-dlp.yt-dlp",
+                        "choco":  "yt-dlp"
+                    },
+                    {
+                        "winget":  "Microsoft.DotNet.DesktopRuntime.8",
+                        "choco":  "dotnet-8.0-runtime"
+                    },
+                    {
+                        "winget":  "Microsoft.Sysinternals.Autoruns",
+                        "choco":  "autoruns"
+                    },
+                    {
+                        "winget":  "Valve.Steam",
+                        "choco":  "steam-client"
+                    },
+                    {
+                        "winget":  "WinSCP.WinSCP",
+                        "choco":  "winscp"
+                    },
+                    {
+                        "winget":  "Brave.Brave",
+                        "choco":  "brave"
+                    },
+                    {
+                        "winget":  "HandBrake.HandBrake",
+                        "choco":  "handbrake"
+                    },
+                    {
+                        "winget":  "Aegisub.Aegisub",
+                        "choco":  "aegisub"
+                    },
+                    {
+                        "winget":  "OpenWhisperSystems.Signal",
+                        "choco":  "signal"
+                    },
+                    {
+                        "winget":  "REALiX.HWiNFO",
+                        "choco":  "hwinfo"
+                    },
+                    {
+                        "winget":  "Google.Chrome",
+                        "choco":  "googlechrome"
+                    },
+                    {
+                        "winget":  "Microsoft.Sysinternals.RDCMan",
+                        "choco":  "rdcman"
+                    },
+                    {
+                        "winget":  "Microsoft.VCRedist.2015+.x64",
+                        "choco":  "na"
+                    },
+                    {
+                        "winget":  "Microsoft.DotNet.DesktopRuntime.5",
+                        "choco":  "dotnet-5.0-runtime"
+                    },
+                    {
+                        "winget":  "VideoLAN.VLC",
+                        "choco":  "vlc"
+                    },
+                    {
+                        "winget":  "Amazon.Corretto.8.JDK",
+                        "choco":  "corretto8jdk"
+                    },
+                    {
+                        "winget":  "Intel.PresentMon.Beta",
+                        "choco":  "na"
+                    },
+                    {
+                        "winget":  "KDE.Krita",
+                        "choco":  "krita"
+                    },
+                    {
+                        "winget":  "Wagnardsoft.DisplayDriverUninstaller",
+                        "choco":  "ddu"
+                    },
+                    {
+                        "winget":  "Microsoft.DotNet.DesktopRuntime.3_1",
+                        "choco":  "dotnetcore3-desktop-runtime"
+                    },
+                    {
+                        "winget":  "LocalSend.LocalSend",
+                        "choco":  "localsend.install"
+                    },
+                    {
+                        "winget":  "ZeroTier.ZeroTierOne",
+                        "choco":  "zerotier-one"
+                    },
+                    {
+                        "winget":  "qBittorrent.qBittorrent",
+                        "choco":  "qbittorrent"
+                    },
+                    {
+                        "winget":  "TGRMNSoftware.BulkRenameUtility",
+                        "choco":  "bulkrenameutility"
+                    },
+                    {
+                        "winget":  "Microsoft.VisualStudioCode",
+                        "choco":  "vscode"
+                    },
+                    {
+                        "winget":  "Microsoft.DotNet.DesktopRuntime.9",
+                        "choco":  "dotnet-9.0-runtime"
+                    },
+                    {
+                        "winget":  "Microsoft.PowerShell",
+                        "choco":  "powershell-core"
+                    },
+                    {
+                        "winget":  "ItchIo.Itch",
+                        "choco":  "itch"
+                    },
+                    {
+                        "winget":  "Telegram.TelegramDesktop",
+                        "choco":  "telegram"
+                    },
+                    {
+                        "winget":  "Unity.UnityHub",
+                        "choco":  "unityhub"
+                    },
+                    {
+                        "winget":  "AntibodySoftware.WizTree",
+                        "choco":  "wiztree"
+                    },
+                    {
+                        "winget":  "Discord.Discord",
+                        "choco":  "discord"
+                    },
+                    {
+                        "winget":  "WireGuard.WireGuard",
+                        "choco":  "wireguard"
+                    },
+                    {
+                        "winget":  "AntibodySoftware.WizFile",
+                        "choco":  "na"
+                    },
+                    {
+                        "winget":  "Git.Git",
+                        "choco":  "git"
+                    },
+                    {
+                        "winget":  "EpicGames.EpicGamesLauncher",
+                        "choco":  "epicgameslauncher"
+                    },
+                    {
+                        "winget":  "MHNexus.HxD",
+                        "choco":  "HxD"
+                    },
+                    {
+                        "winget":  "Famatech.AdvancedIPScanner",
+                        "choco":  "advanced-ip-scanner"
+                    },
+                    {
+                        "winget":  "AdrienAllard.FileConverter",
+                        "choco":  "file-converter"
+                    },
+                    {
+                        "winget":  "M2Team.NanaZip",
+                        "choco":  "nanazip"
+                    },
+                    {
+                        "winget":  "Microsoft.Sysinternals.TCPView",
+                        "choco":  "tcpview"
+                    },
+                    {
+                        "winget":  "CPUID.CPU-Z",
+                        "choco":  "cpu-z"
+                    },
+                    {
+                        "winget":  "Insecure.Nmap",
+                        "choco":  "nmap"
+                    },
+                    {
+                        "winget":  "Waterfox.Waterfox",
+                        "choco":  "waterfox"
+                    },
+                    {
+                        "winget":  "PuTTY.PuTTY",
+                        "choco":  "putty"
+                    },
+                    {
+                        "winget":  "Klocman.BulkCrapUninstaller",
+                        "choco":  "bulk-crap-uninstaller"
+                    },
+                    {
+                        "winget":  "WiresharkFoundation.Wireshark",
+                        "choco":  "wireshark"
+                    },
+                    {
+                        "winget":  "Microsoft.DotNet.DesktopRuntime.7",
+                        "choco":  "dotnet-7.0-runtime"
+                    },
+                    {
+                        "winget":  "Amazon.Corretto.11.JDK",
+                        "choco":  "corretto11jdk"
+                    }
+                ],
+    "WPFInstall":  [
+                       "WPFInstallterminal",
+                       "WPFInstallobs",
+                       "WPFInstallsuperf4",
+                       "WPFInstallventoy",
+                       "WPFInstallonlyoffice",
+                       "WPFInstalldotnet6",
+                       "WPFInstallffmpeg",
+                       "WPFInstallparsec",
+                       "WPFInstallefibooteditor",
+                       "WPFInstalljava21",
+                       "WPFInstallPaintdotnet",
+                       "WPFInstallmoonlight",
+                       "WPFInstallblender",
+                       "WPFInstallhwmonitor",
+                       "WPFInstallvc2015_32",
+                       "WPFInstallsumatra",
+                       "WPFInstalllockhunter",
+                       "WPFInstallEqualizerAPO",
+                       "WPFInstallpython3",
+                       "WPFInstallteamviewer",
+                       "WPFInstalljava17",
+                       "WPFInstallsunshine",
+                       "WPFInstallgpuz",
+                       "WPFInstallytdlp",
+                       "WPFInstalldotnet8",
+                       "WPFInstallautoruns",
+                       "WPFInstallsteam",
+                       "WPFInstallwinscp",
+                       "WPFInstallbrave",
+                       "WPFInstallhandbrake",
+                       "WPFInstallAegisub",
+                       "WPFInstallsignal",
+                       "WPFInstallhwinfo",
+                       "WPFInstallchrome",
+                       "WPFInstallrdcman",
+                       "WPFInstallvc2015_64",
+                       "WPFInstalldotnet5",
+                       "WPFInstallvlc",
+                       "WPFInstalljava8",
+                       "WPFInstallintelpresentmon",
+                       "WPFInstallkrita",
+                       "WPFInstallddu",
+                       "WPFInstalldotnet3",
+                       "WPFInstalllocalsend",
+                       "WPFInstallzerotierone",
+                       "WPFInstallqbittorrent",
+                       "WPFInstallbulkrenameutility",
+                       "WPFInstallvscode",
+                       "WPFInstalldotnet9",
+                       "WPFInstallpowershell",
+                       "WPFInstallitch",
+                       "WPFInstalltelegram",
+                       "WPFInstallunity",
+                       "WPFInstallwiztree",
+                       "WPFInstalldiscord",
+                       "WPFInstallwireguard",
+                       "WPFInstallwizfile",
+                       "WPFInstallgit",
+                       "WPFInstallepicgames",
+                       "WPFInstallxeheditor",
+                       "WPFInstalladvancedip",
+                       "WPFInstallfileconverter",
+                       "WPFInstallnanazip",
+                       "WPFInstalltcpview",
+                       "WPFInstallcpuz",
+                       "WPFInstallnmap",
+                       "WPFInstallwaterfox",
+                       "WPFInstallputty",
+                       "WPFInstallbulkcrapuninstaller",
+                       "WPFInstallwireshark",
+                       "WPFInstalldotnet7",
+                       "WPFInstalljava11"
+                   ],
+    "WPFFeature":  [
+
+                   ]
+}

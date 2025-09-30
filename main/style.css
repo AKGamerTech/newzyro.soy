@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(20, 20, 20);
+    background-attachment: fixed;
+    color: white;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(10, 10,10);
+
+}
+
+
+nav ul li:hover {
+    border-radius: 20px;
+    background-color: rgb(30, 30,30);
+
+    text-decoration: underline;
+}
+
+
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+main {
+    padding: 20px;
+    margin-top: 60px; /* To avoid content being hidden under the fixed navbar */
+}
+
+.main-text {
+    display: block;
+}
+
+.section-content {
+    display: flex;
+    align-items: left;
+    margin: 1em 5%;
+    background-color: rgba(50, 50, 50, 0.6);
+    border-radius: 20px;
+    padding: 20px;
+    filter: blur(0px);
+    backdrop-filter: blur(20px); /* For supported browsers */
+    margin: 1em 10%;
+
+}
+
+.section-content img.section-image {
+    margin-right: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.section-content h2 {
+    margin-top: 0;
+    color: white;
+}
+
+.section-content p {
+    margin-top: 5px;
+    color: white;
+}
+
+.section-link{
+    color: white;
+    text-decoration: underline;
+}
